@@ -13,6 +13,10 @@
 		6B1612DD27DD85C200F67CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1612DB27DD85C200F67CE8 /* Main.storyboard */; };
 		6B1612DF27DD85C400F67CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B1612DE27DD85C400F67CE8 /* Assets.xcassets */; };
 		6B1612E227DD85C400F67CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B1612E027DD85C400F67CE8 /* LaunchScreen.storyboard */; };
+		6B1612EA27DD87DB00F67CE8 /* EmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1612E927DD87DB00F67CE8 /* EmojiTableViewController.swift */; };
+		6B1612EC27DD95CC00F67CE8 /* EmojiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1612EB27DD95CC00F67CE8 /* EmojiTableViewCell.swift */; };
+		6B1612EE27DD97D100F67CE8 /* emojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1612ED27DD97D100F67CE8 /* emojiModel.swift */; };
+		6B1612F027DDA92700F67CE8 /* NewEmojiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1612EF27DDA92700F67CE8 /* NewEmojiTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		6B1612DE27DD85C400F67CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B1612E127DD85C400F67CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B1612E327DD85C400F67CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1612E927DD87DB00F67CE8 /* EmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewController.swift; sourceTree = "<group>"; };
+		6B1612EB27DD95CC00F67CE8 /* EmojiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiTableViewCell.swift; sourceTree = "<group>"; };
+		6B1612ED27DD97D100F67CE8 /* emojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = emojiModel.swift; sourceTree = "<group>"; };
+		6B1612EF27DDA92700F67CE8 /* NewEmojiTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEmojiTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				6B1612D527DD85C200F67CE8 /* AppDelegate.swift */,
 				6B1612D727DD85C200F67CE8 /* SceneDelegate.swift */,
 				6B1612D927DD85C200F67CE8 /* ViewController.swift */,
+				6B1612E927DD87DB00F67CE8 /* EmojiTableViewController.swift */,
+				6B1612EF27DDA92700F67CE8 /* NewEmojiTableViewController.swift */,
+				6B1612ED27DD97D100F67CE8 /* emojiModel.swift */,
+				6B1612EB27DD95CC00F67CE8 /* EmojiTableViewCell.swift */,
 				6B1612DB27DD85C200F67CE8 /* Main.storyboard */,
 				6B1612DE27DD85C400F67CE8 /* Assets.xcassets */,
 				6B1612E027DD85C400F67CE8 /* LaunchScreen.storyboard */,
@@ -138,7 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1612EE27DD97D100F67CE8 /* emojiModel.swift in Sources */,
+				6B1612EA27DD87DB00F67CE8 /* EmojiTableViewController.swift in Sources */,
 				6B1612DA27DD85C200F67CE8 /* ViewController.swift in Sources */,
+				6B1612EC27DD95CC00F67CE8 /* EmojiTableViewCell.swift in Sources */,
+				6B1612F027DDA92700F67CE8 /* NewEmojiTableViewController.swift in Sources */,
 				6B1612D627DD85C200F67CE8 /* AppDelegate.swift in Sources */,
 				6B1612D827DD85C200F67CE8 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +311,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,6 +340,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
